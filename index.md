@@ -1,6 +1,6 @@
 # CECS 282
 ### Week 7 (3/7/22 - 3/9/22)
 
-`print("Hello World")`
+- Start writing notes
 
----
+`print("Hello World")`
