@@ -7,8 +7,8 @@
 Prog3
 - Movie.cpp, myDate.cpp, myDate.h
 
-`struct Movie
-{
+`struct Movie`
+`{
     char name[20]  // can have smaller word, but not larger word
     int running;
     double rating;
