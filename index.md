@@ -6,8 +6,6 @@
 
 Prog3
 - Movie.cpp, myDate.cpp, myDate.h
-- 
-
 
 `struct Movie
 {
@@ -33,6 +31,7 @@ int main()
 - compare string by using '<' or .compare()
 
 Example of cstring
+
 `char fname[10];
 char lname[5];
 strcpy(lname, "Smith");
