@@ -2,7 +2,7 @@
 ### Week 7 (3/7/22 - 3/9/22)
 
 - Start writing notes. Any interesting facts
-- 
+
       struct Movie
       {
           char name[20]  // can have smaller word, but not larger word
@@ -15,7 +15,8 @@
 Prog3
 - Movie.cpp, myDate.cpp, myDate.h
 
-`struct Movie
+```
+struct Movie
 {
     char name[20]  // can have smaller word, but not larger word
     int running;
@@ -23,6 +24,7 @@ Prog3
     myDate release;
     string actor;
 }
+
 
 // int x; this is global variable, placed before main (DO NOT USE)
 int main()
@@ -34,7 +36,8 @@ int main()
         case 1: sortbyName(mov); break;
         case 2:: sortbyRelease(); break;
     }
-}`
+}
+```
 
 - compare string by using '<' or .compare()
 
