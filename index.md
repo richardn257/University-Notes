@@ -9,8 +9,7 @@ Prog3
 - 
 
 
-`
-struct Movie
+`struct Movie
 {
     char name[20]  // can have smaller word, but not larger word
     int running;
