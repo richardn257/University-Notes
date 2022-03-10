@@ -3,10 +3,15 @@
 
 - Start writing notes. Any interesting facts
 - 
-<html>
-      <head>
-      </head>
-</html>
+      struct Movie
+      {
+          char name[20]  // can have smaller word, but not larger word
+          int running;
+          double rating;
+          myDate release;
+          string actor;
+      }
+
 Prog3
 - Movie.cpp, myDate.cpp, myDate.h
 
