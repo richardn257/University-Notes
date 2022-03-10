@@ -37,7 +37,7 @@ char lname[5];
 strcpy(lname, "Smith");
 strcpy(fname, "Bartholomue");
 ```
-imagine a horizontal rectangle which rep array
+- imagine a horizontal rectangle which rep array
 fname | lname
 Bartholomue // with strcpy, it overwrites Smith, strcpy does not prevent overwrite
 strncpy will set a limit of the char
