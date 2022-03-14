@@ -35,6 +35,7 @@ int main()
 - if x > y return greater than 0
 - if x < y return less than 0
 - if x == y return 0
+- 0 is false and non-zero is true
 
 Example of cstring
 ```
