@@ -39,10 +39,10 @@ strcpy(fname, "Bartholomue");
 ```
 <p>imagine a horizontal rectangle which rep array<br>
 | fname | lname |<br>
-Bartholomue // with strcpy, it overwrites Smith, strcpy does not prevent overwrite<br>
-strncpy will set a limit of the char<br></p>
+Bartholomue // with strcpy, it overwrites Smith, strcpy does not prevent overwrite<br></p>
 
-[Test](https://en.cppreference.com/w/cpp/string/byte/strncpy)
+-strncpy will set a limit of the char
+[More info on strncpy](https://en.cppreference.com/w/cpp/string/byte/strncpy)
 
 - use bubble sort cuz its ez
 ```
