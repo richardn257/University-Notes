@@ -29,6 +29,7 @@ int main()
 ```
 
 - compare string by using '>, <, ==' or .compare()
+x.compare(y)
 - if x > y return greater than 0
 - if x < y return less than 0
 - if x == y return 0
