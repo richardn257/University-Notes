@@ -41,7 +41,7 @@ strcpy(fname, "Bartholomue");
 | fname | lname |<br>
 Bartholomue // with strcpy, it overwrites Smith, strcpy does not prevent overwrite<br>
 strncpy will set a limit of the char<br></p>
-[strcnpy](https://en.cppreference.com/w/cpp/string/byte/strncpy)
+[Test](https://en.cppreference.com/w/cpp/string/byte/strncpy)
 
 - use bubble sort cuz its ez
 ```
