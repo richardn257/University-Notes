@@ -107,12 +107,6 @@ void strcpy(char *p, char *q)     // p is pointing to the first element of array
 
 
 ### Week 8 (3/14 - 3/16)
-- study quizzes for midterm
-- check if 
-
-<p>
-<br></p>
-
 code example of operator-
 ```
 int operator-(Time t1, Time t2)
