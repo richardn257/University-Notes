@@ -138,9 +138,11 @@ cout << (x > y) ? x : y;
 #include "upDate.h"
 int main()
 {
+    // Note: upDate has *dptr
     upDate today(3, 16, 2022);
     upDate nextWeek(3, 23, 2022);
-    today = nextWeek;       // overwrite the assignment operator b/c memory leak
+    today = nextWeek;               // overwrite the assignment operator b/c memory leak
+    // so today points to nextWeek, and the previous pointed by today can no longer be accessed. Thus, memory leak
 }
 ```
 
