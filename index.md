@@ -21,7 +21,8 @@ int main()
     populate(mov);    // strcpy(), strncpy()
     switch(choice)
     {
-        case 1: sortbyName(mov); break;
+        case 1: sortbyName(mov); 
+        eak;
         case 2: sortbyRelease(mov); break;
         ...
     }
@@ -103,3 +104,65 @@ void strcpy(char *p, char *q)     // p is pointing to the first element of array
     while (*p++ = *q++);   // assigns q to p (true until reach null in banana, (its blank, empty) (not '\0', this is null terminator))
 }
 ```
+
+
+### Week 8 (3/14 - 3/16)
+- study quizzes for midterm
+- check if 
+
+<p>
+<br></p>
+
+code example of operator-
+```
+int operator-(Time t1, Time t2)
+{
+}
+
+#include "Time.h"
+int main()
+{
+    Time evening(18,0);
+    Time bedTime(23, 0);
+    cout << bedTime - evening;
+}
+
+// operator overloading
+// int in () is size
+// return month
+int operator[] (myDate, int)
+```
+
+Ternary operator
+```
+a ? b : c
+exprssion  ? if true execute : else false execute
+cout << (x > y) ? x : y;
+```
+
+```
+#include "upDate.h"
+int main()
+{
+    upDate today(3, 16, 2022);
+    upDate nextWeek(3, 23, 2022);
+    today = nextWeek;       // overwrite the assignment operator b/c memory leak
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
